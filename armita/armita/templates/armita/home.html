@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}Home | Armita{% endblock %}
+{% block content %}
+
+<div class="text-center">
+    <h1>Welcome to Armita</h1>
+    <p>Find skilled artisans or discover job opportunities.</p>
+    <a href="{% url 'job-list' %}" class="btn btn-primary">Browse Jobs</a>
+</div>
+
+{% endblock %}
